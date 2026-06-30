@@ -1,0 +1,380 @@
+{
+  "STYLE_GUIDES": {
+    "Modern": {
+      "name": "Modern",
+      "tagline": "Clean lines, geometric shapes, and functional simplicity.",
+      "description": "Originating in the late 19th century, modern design centers around form following function. It relies on clean, straight lines, simple geometric forms, and a strong rejection of heavy ornamentation.",
+      "keyElements": ["Straight, clean lines", "Polished surfaces (chrome, steel, glass)", "Functional open-plan layouts", "Uncluttered spaces"],
+      "colors": [
+        { "name": "Alabaster White", "hex": "#F2F0EA" },
+        { "name": "Slate Charcoal", "hex": "#2E3033" },
+        { "name": "Brushed Brass Accents", "hex": "#C5A059" }
+      ],
+      "idealLighting": "Recessed spotlights, clean geometric pendant lights, and integrated LED strip lighting.",
+      "recommendedDecor": ["Abstract canvas paintings", "Metal geometric sculptures", "Monstera plants in clean ceramic pots"]
+    },
+    "Minimalist": {
+      "name": "Minimalist",
+      "tagline": "The art of 'Less is More' in luxury form.",
+      "description": "Derived from traditional Japanese design, minimalism focuses on stripping elements down to their essential form, celebrating negative space, organic materials, and beautiful, diffused natural light.",
+      "keyElements": ["Hidden cabinet hardware", "Monochromatic color palettes", "Generous negative space", "Multi-functional furniture"],
+      "colors": [
+        { "name": "Soft Linen Gray", "hex": "#E3E4E0" },
+        { "name": "Warm Oak", "hex": "#D9C3B0" },
+        { "name": "Matte Black Accent", "hex": "#1A1A1A" }
+      ],
+      "idealLighting": "Invisible cove lighting, warm diffused lamps, and sleek minimalist floor arches.",
+      "recommendedDecor": ["Single branch vases", "Fine-weave neutral rugs", "Minimal line-art frames"]
+    },
+    "Luxury": {
+      "name": "Luxury",
+      "tagline": "Opulent materials, exquisite craftsmanship, and grand statements.",
+      "description": "Luxury interior design is defined by rich textures, high-end stone, metallic highlights, and custom-designed bespoke furniture that radiates sophistication and curated elegance.",
+      "keyElements": ["Polished Calacatta marble", "Plush velvet & premium silks", "Bespoke brass and gold detailing", "Rich paneling and moldings"],
+      "colors": [
+        { "name": "Champagne Pearl", "hex": "#F5EFE6" },
+        { "name": "Royal Obsidian", "hex": "#1D2026" },
+        { "name": "Imperial Gold", "hex": "#DFBA73" }
+      ],
+      "idealLighting": "Bespoke crystal chandeliers, premium brass sconces, and dimmed spotlighting.",
+      "recommendedDecor": ["Large gilded mirrors", "Handcrafted marble sculptures", "Scented luxury candles, velvet throw pillows"]
+    },
+    "Contemporary": {
+      "name": "Contemporary",
+      "tagline": "Fluid, evolving, and highly sophisticated.",
+      "description": "Unlike modern design, contemporary is fluid and refers to what is popular right now. It incorporates curved silhouettes, contrasting textures, and state-of-the-art technological integrations.",
+      "keyElements": ["Curved sofas and soft shapes", "Bold texture contrasts", "Cutting-edge materials", "Neutral backdrop with high-contrast art"],
+      "colors": [
+        { "name": "Taupe Velvet", "hex": "#BCAAA4" },
+        { "name": "Creamy Ivory", "hex": "#FFFDF9" },
+        { "name": "Deep Teal Accent", "hex": "#004D40" }
+      ],
+      "idealLighting": "Artistic curved chandeliers, smart track lighting, and architectural accent fixtures.",
+      "recommendedDecor": ["Curved ceramic vases", "Textured boucle throws", "Contemporary hand-tufted rugs"]
+    },
+    "Scandinavian": {
+      "name": "Scandinavian",
+      "tagline": "Warm, cozy, and intrinsically linked with nature (Hygge).",
+      "description": "Focuses on light-filled spaces, natural wood, cozy textiles, and functional layouts designed to make a space feel snug yet airy, bright, and deeply grounded in organic nature.",
+      "keyElements": ["Light ash or pine woods", "Cozy wool and sheepskin textures", "Abundant indoor greenery", "Clutter-free storage solutions"],
+      "colors": [
+        { "name": "Mist Gray", "hex": "#ECEFF1" },
+        { "name": "Pale Birch", "hex": "#EFEBE9" },
+        { "name": "Forest Sage Accent", "hex": "#556B2F" }
+      ],
+      "idealLighting": "Warm pendant lights, pleated table lamps, and flickering candlelight.",
+      "recommendedDecor": ["Hand-knit wool throws", "Eucalyptus branches in glass jars", "Light wood frames with nature photography"]
+    },
+    "Industrial": {
+      "name": "Industrial",
+      "tagline": "Raw materials, exposed structural architecture, and urban edge.",
+      "description": "Inspired by converted warehouses and factories, industrial design proudly displays raw concrete, exposed pipes, steel beams, weathered wood, and leather elements.",
+      "keyElements": ["Exposed brick and concrete", "Weathered iron & black steel framework", "Reclaimed wood surfaces", "High industrial loft ceilings"],
+      "colors": [
+        { "name": "Rough Concrete", "hex": "#9E9E9E" },
+        { "name": "Exposed Clay Brick", "hex": "#A16954" },
+        { "name": "Weathered Iron", "hex": "#303030" }
+      ],
+      "idealLighting": "Edison bulb pendants, steel cage lamps, and robust articulating track lights.",
+      "recommendedDecor": ["Large industrial wall clocks", "Exposed metal shelves", "Distressed leather cushions"]
+    },
+    "Traditional": {
+      "name": "Traditional",
+      "tagline": "Rich history, symmetrical harmony, and timeless comfort.",
+      "description": "Grounded in European sensibilities, traditional design features elaborate wood carvings, rich color tapestries, matched pairs of furniture for symmetry, and classic historic patterns.",
+      "keyElements": ["Symmetrical arrangements", "Carved mahogany or cherry wood", "Classic motifs (damask, plaid, floral)", "Ornate architectural moldings"],
+      "colors": [
+        { "name": "Classic Ivory", "hex": "#FAF6EE" },
+        { "name": "Deep Mahogany", "hex": "#4E2C1F" },
+        { "name": "Royal Emerald", "hex": "#0F4C3A" }
+      ],
+      "idealLighting": "Ornate brass lamps with silk shades, candle-style chandeliers, and glass sconces.",
+      "recommendedDecor": ["Oil paintings in carved gold frames", "Persian wool carpets", "Porcelain vases"]
+    },
+    "Bohemian": {
+      "name": "Bohemian",
+      "tagline": "Wanderlust-inspired layers, rich plants, and free-spirited life.",
+      "description": "Bohemian design is personal, exotic, and rules-free. It compiles textiles, global artifacts, rich macramé, layered vintage furniture, and an abundant tropical jungle of indoor plants.",
+      "keyElements": ["Layered rugs and textiles", "Rattan, bamboo, and wicker", "Hanging macramé and tapestries", "Mismatched vintage pieces"],
+      "colors": [
+        { "name": "Sand Dune White", "hex": "#F4EBE1" },
+        { "name": "Terracotta Clay", "hex": "#D35400" },
+        { "name": "Deep Indigo Blue", "hex": "#1A237E" }
+      ],
+      "idealLighting": "Rattan woven pendants, Moroccan brass lanterns, and warm fairy lights.",
+      "recommendedDecor": ["Macramé wall hangings", "Pothos, Snake, and Palm plants", "Patterned kilim poufs"]
+    },
+    "Rustic": {
+      "name": "Rustic",
+      "tagline": "Honest, weathered textures and simple mountain-lodge warmth.",
+      "description": "rustic design emphasizes rugged, natural beauty. It highlights rough-hewn stone, unfinished wood planks, cozy fireplaces, and sturdy, comfortable seating made for simple gathering.",
+      "keyElements": ["Rough-hewn wooden logs", "Fieldstone masonry features", "Warm cozy blankets", "Heavy, robust furniture shapes"],
+      "colors": [
+        { "name": "Spruce Bark Brown", "hex": "#5C4033" },
+        { "name": "Oatmeal Warm Beige", "hex": "#E6D7C3" },
+        { "name": "Rustic Crimson", "hex": "#8B0000" }
+      ],
+      "idealLighting": "Forged iron chandeliers, lantern-style fixtures, and warm wood table lamps.",
+      "recommendedDecor": ["Antler decor accents", "Plaid wool blankets", "Handmade ceramic pottery"]
+    },
+    "Classic": {
+      "name": "Classic",
+      "tagline": "Refined grandeur, balanced proportions, and royal restraint.",
+      "description": "Inspired by Greek and Roman classicism, this style brings column details, symmetrical design structures, Greek-key patterns, and high-end marble fireplace mantels into modern homes.",
+      "keyElements": ["Neoclassical pillar columns", "Meticulous structural symmetry", "High-quality marble mantels", "Dignified, structured layout"],
+      "colors": [
+        { "name": "Imperial Alabaster", "hex": "#FFFDF4" },
+        { "name": "Greek Navy", "hex": "#1B365D" },
+        { "name": "Gilded Bronze Accent", "hex": "#CD7F32" }
+      ],
+      "idealLighting": "Greek key detailed bronze lamps, neoclassical chandeliers, and picture frame lights.",
+      "recommendedDecor": ["Classic plaster bust sculptures", "Symmetrical matching mirrors", "Gilt-edged leather books"]
+    },
+    "Japanese": {
+      "name": "Japanese",
+      "tagline": "Zen balance, organic simplicity, and natural material cycles.",
+      "description": "Japanese design prioritizes meditative peace, shoji panel sliding doors, low-profile furniture seating, and natural cedar/bamboo surfaces. It represents natural breathing and tranquil living.",
+      "keyElements": ["Shoji screen paper partitions", "Low-profile floor furniture", "Natural cedar, hinoki, and bamboo", "Tatami woven straw mats"],
+      "colors": [
+        { "name": "Washi Paper White", "hex": "#FCFBE3" },
+        { "name": "Cedar Brown", "hex": "#8D6E63" },
+        { "name": "Moss Green Accent", "hex": "#4E5D4C" }
+      ],
+      "idealLighting": "Washi paper lamps (e.g. Noguchi style), soft hidden diffuse wood screens.",
+      "recommendedDecor": ["Bonsai trees", "Calligraphy scrolls", "Zen stone water bowls, ceramic tea sets"]
+    },
+    "Mediterranean": {
+      "name": "Mediterranean",
+      "tagline": "Sun-drenched stucco walls, cobalt seas, and warm clay tiled patios.",
+      "description": "Bringing the coastal charm of Italy, Greece, and Spain, this style utilizes whitewashed stucco, sea-cobalt accents, arched doorways, terracotta flooring, and gorgeous hand-painted ceramic tiles.",
+      "keyElements": ["Whitewashed plaster stucco", "Curved arched interior doors", "Terracotta clay flooring", "Hand-painted ceramic mosaics"],
+      "colors": [
+        { "name": "Sun-Bleached Stucco", "hex": "#FDFBF7" },
+        { "name": "Cobalt Blue Sea", "hex": "#0D47A1" },
+        { "name": "Olive Leaf Green", "hex": "#606C38" }
+      ],
+      "idealLighting": "Wrought-iron chandeliers, rustic clay lamps, and warm sunlight filtering through linen.",
+      "recommendedDecor": ["Terracotta olive jars", "Wrought-iron wall grilles", "Olive tree branches in large vases"]
+    }
+  },
+  "VASTU_COMPASS_DATA": [
+    {
+      "direction": "North (Uttara)",
+      "angle": 0,
+      "element": "Water (Jal)",
+      "lord": "Kubera (Wealth)",
+      "positiveRooms": ["Living Room", "Main Entrance", "Office Desk", "Cash Counter"],
+      "tips": [
+        "Keep this zone highly open, clean, and spacious.",
+        "Ideal placement for cash registers, financial ledgers, and mirrors.",
+        "Decorate with blue, green, or silver color shades. Place water fountains here."
+      ]
+    },
+    {
+      "direction": "North-East (Ishaanya)",
+      "angle": 45,
+      "element": "Water & Space",
+      "lord": "Shiva / Dattatreya (Wisdom)",
+      "positiveRooms": ["Temple / Meditation", "Living Room Entrance", "Balcony", "Study Corner"],
+      "tips": [
+        "The most sacred zone. Perfect location for a mandir or silent yoga zone.",
+        "Avoid toilets, heavy storage cupboards, or kitchens in this zone.",
+        "Keep the walls light (cream, baby blue, off-white)."
+      ]
+    },
+    {
+      "direction": "East (Purva)",
+      "angle": 90,
+      "element": "Air (Vayu)",
+      "lord": "Indra / Surya (Social Connections)",
+      "positiveRooms": ["Living Room", "Main Entry", "Office Desk", "Study Room"],
+      "tips": [
+        "Ideal for social spaces. Let extensive natural morning sunlight stream inside.",
+        "Avoid high-profile heavy furniture right against the eastern walls.",
+        "Decorate with lush indoor plants, green elements, and wooden frames."
+      ]
+    },
+    {
+      "direction": "South-East (Agneya)",
+      "angle": 135,
+      "element": "Fire (Agni)",
+      "lord": "Agni (Energy, Health, Passion)",
+      "positiveRooms": ["Kitchen", "Pantry", "Electrical Server Room", "Salon Hair Dryer Station"],
+      "tips": [
+        "The ideal zone for hot appliances (Stoves, ovens, heaters, computer hardware).",
+        "Avoid water elements, toilets, or mirror installations here (extinguishes Fire energy).",
+        "Accentuate with beautiful red, orange, pink, or amber warm lamps."
+      ]
+    },
+    {
+      "direction": "South (Dakshina)",
+      "angle": 180,
+      "element": "Earth (Prithvi)",
+      "lord": "Yama (Justice, Strength)",
+      "positiveRooms": ["Bedroom (Head facing South)", "Sofa Seating", "Hotel Suites", "Managers Office"],
+      "tips": [
+        "Ideal zone for heavy furniture, main storage safes, or wardrobes.",
+        "Elevate flooring heights slightly or paint with warm terracotta or golden tones.",
+        "Perfect placement for large family or organizational legacy frames."
+      ]
+    },
+    {
+      "direction": "South-West (Nairutya)",
+      "angle": 225,
+      "element": "Earth (Prithvi)",
+      "lord": "Nirriti (Stability, Ancestors)",
+      "positiveRooms": ["Master Bedroom", "Heavy Storage", "Director's Desk", "Hotel Master Suite"],
+      "tips": [
+        "The zone of stability. Essential for masters of the house or directors of businesses.",
+        "Place the bed/desk here with head/chair facing North or East.",
+        "Keep this area heavy and grounded. Avoid any water tanks or entries here."
+      ]
+    },
+    {
+      "direction": "West (Paschima)",
+      "angle": 270,
+      "element": "Space (Akasha)",
+      "lord": "Varuna (Success, Water Cycle)",
+      "positiveRooms": ["Dining Room", "Children Room", "Clinic Consultation", "Shop Shelves"],
+      "tips": [
+        "Excellent direction for overhead water drainage and dining gathering.",
+        "Add silver, blue, or deep charcoal styling overlays here.",
+        "Slightly heavier wood furniture works very well here."
+      ]
+    },
+    {
+      "direction": "North-West (Vayavya)",
+      "angle": 315,
+      "element": "Air (Vayu)",
+      "lord": "Vayu (Movement, Change, Clients)",
+      "positiveRooms": ["Guest Bedroom", "Retail Showroom Items", "Salon Wash Basin", "Garage / Cars"],
+      "tips": [
+        "The direction of movement. Place retail items here to facilitate quick sales.",
+        "Ideal for guest suites so they do not overstay, as energy moves frequently.",
+        "Add gorgeous light curtains, windchimes, or swirling silver metallic accents."
+      ]
+    }
+  ],
+  "TEMPLATE_ROOMS": [
+    {
+      "id": "template-1",
+      "createdAt": "2026-06-29T22:54:00Z",
+      "roomName": "Serene Japandi Living Lounge",
+      "roomType": "Living Room",
+      "style": "Japanese",
+      "budget": "Premium",
+      "dimensions": { "length": 16, "width": 14, "height": 10, "unit": "ft" },
+      "palette": {
+        "primary": "#FCFBE3",
+        "secondary": "#8D6E63",
+        "accent": "#4E5D4C",
+        "primaryName": "Washi Paper Cream",
+        "secondaryName": "Muted Hinoki Wood",
+        "accentName": "Moss Garden Sage"
+      },
+      "furniture": [
+        {
+          "id": "furn-1-1",
+          "name": "Low-Profile Ash Wood Sofa",
+          "dimensions": "8.5ft x 3.5ft x 2ft",
+          "material": "Solid Ash Wood & Off-White Bouclé",
+          "estimatedCost": 1800,
+          "reason: ": "Brings Japanese minimalism and a grounded, low seating posture to the layout.",
+          "vastuZone": "South-West",
+          "x": 50,
+          "y": 75,
+          "rotation": 0
+        },
+        {
+          "id": "furn-1-2",
+          "name": "Solid Oak Floating Sideboard",
+          "dimensions": "6ft x 1.8ft x 2.2ft",
+          "material": "White Oak & Shoji Slide Doors",
+          "estimatedCost": 1100,
+          "reason": "Provides hidden storage that keeps the space completely neat and serene.",
+          "vastuZone": "South",
+          "x": 50,
+          "y": 18,
+          "rotation": 180
+        },
+        {
+          "id": "furn-1-3",
+          "name": "Round Hinoki Stave Coffee Table",
+          "dimensions": "3.5ft Diameter x 1ft H",
+          "material": "Japanese Cypress (Hinoki)",
+          "estimatedCost": 850,
+          "reason": "Organic curves soften the straight lines of the ash-wood sofa and cabinets.",
+          "vastuZone": "Center",
+          "x": 50,
+          "y": 50,
+          "rotation": 0
+        },
+        {
+          "id": "furn-1-4",
+          "name": "Minimalist Origami Reading Chair",
+          "dimensions": "2.8ft x 2.8ft x 2.4ft",
+          "material": "Bended Ash Plywood & Linen Cushion",
+          "estimatedCost": 650,
+          "reason": "Compact accent seat adding high sculptural design value without consuming visual volume.",
+          "vastuZone": "West",
+          "x": 22,
+          "y": 50,
+          "rotation": 90
+        }
+      ],
+      "lighting": [
+        {
+          "type": "Ambient",
+          "name": "Rice Paper Globe Pendant",
+          "placement": "Centered above the low coffee table",
+          "purpose": "Casts a warm, highly diffused, meditative glow over the seating assembly.",
+          "estimatedCost": 350
+        },
+        {
+          "type": "Accent",
+          "name": "Integrated warm LED strip lights",
+          "placement": "Concealed behind floating wood wall panels",
+          "purpose": "Simulates indirect sunset lighting to create a soothing evening ambiance.",
+          "estimatedCost": 400
+        }
+      ],
+      "decor": [
+        {
+          "type": "Rugs",
+          "name": "Sisal & Wool Woven Flatweave Rug",
+          "placement": "Under the sofa assembly, running up to the credenza",
+          "visualAppeal": "Durable organic texture that matches the grounded raw tone of Japandi style.",
+          "estimatedCost": 480
+        },
+        {
+          "type": "Plants",
+          "name": "Bonsai Juniper on Timber Stand",
+          "placement": "East Corner of the Room",
+          "visualAppeal": "A vibrant focal point of organic sculptured greenery that invites patience.",
+          "estimatedCost": 220
+        }
+      ],
+      "vastu": [
+        {
+          "element: ": "Sofa seating",
+          "idealDirection": "South-West",
+          "placementDetail": "Placed securely against the South-West wall, facing East/North.",
+          "benefit": "Provides high stability, mental clarity, and commanding authority during conversations.",
+          "priority": "High"
+        },
+        {
+          "element": "Plants & Water Features",
+          "idealDirection": "North-East or East",
+          "placementDetail": "Small stone tabletop fountain and the Bonsai placed in the East corner.",
+          "benefit": "Vibrates with active morning solar rays, amplifying health and positive life vibrations.",
+          "priority": "Medium"
+        }
+      ],
+      "spaceOptimizationTips": [
+        "Hang shoeracks or cabinets off the floor (floating) to increase visible floor footprint.",
+        "Utilize sliding shoji screens or pocket doors instead of swinging wood doors to save 9 sq ft of sweep space."
+      ],
+      "totalEstimatedCost": 5850
+    }
+  ]
+}
