@@ -12,7 +12,8 @@ import { GoogleGenAI, Type } from "@google/genai";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const isCloudRun = !!process.env.K_SERVICE;
+const PORT = isCloudRun ? 3000 : (process.env.PORT || 3000);
 
 app.use(express.json({ limit: "15mb" }));
 
