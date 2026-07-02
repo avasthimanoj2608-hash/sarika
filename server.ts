@@ -12,7 +12,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json({ limit: "15mb" }));
 
@@ -436,16 +436,26 @@ async function startServer() {
     });
     app.use(vite.middlewares);
   } else {
-    console.log("Serving static production assets from /dist...");
-    const distPath = path.join(process.cwd(), "dist");
+    console.log("Serving static production assets...");
+    // Robustly determine the dist folder location relative to __dirname (when compiled/bundled)
+    // or falling back to process.cwd() as a safety measure.
+    let distPath = path.join(process.cwd(), "dist");
+    if (typeof __dirname !== "undefined") {
+      if (path.basename(__dirname) === "dist") {
+        distPath = __dirname;
+      } else {
+        distPath = path.join(__dirname, "dist");
+      }
+    }
+    console.log(`Resolved production assets path: ${distPath}`);
     app.use(express.static(distPath));
     app.get("*", (req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Express Server running on http://0.0.0.0:${PORT}`);
+  app.listen(Number(PORT), "0.0.0.0", () => {
+    console.log(`Express Server running on port ${PORT}`);
   });
 }
 
