@@ -457,9 +457,15 @@ async function startServer() {
 
   const isNumericPort = !isNaN(Number(PORT));
   if (isNumericPort) {
-    app.listen(Number(PORT), "0.0.0.0", () => {
-      console.log(`Express Server running on port ${PORT}`);
-    });
+    if (isCloudRun) {
+      app.listen(Number(PORT), "0.0.0.0", () => {
+        console.log(`Express Server running on port ${PORT} (Cloud Run)`);
+      });
+    } else {
+      app.listen(Number(PORT), () => {
+        console.log(`Express Server running on port ${PORT}`);
+      });
+    }
   } else {
     app.listen(PORT, () => {
       console.log(`Express Server running on UNIX socket/pipe: ${PORT}`);

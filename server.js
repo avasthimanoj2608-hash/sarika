@@ -8,4 +8,4 @@
 // This ensures that shared hosting environments (like Hostinger, cPanel, Plesk, etc.)
 // which expect the main startup script in the root directory can start the application out-of-the-box.
 
-require('./dist/server.cjs');
+import './dist/server.cjs';
