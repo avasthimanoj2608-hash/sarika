@@ -279,7 +279,7 @@
           "dimensions": "8.5ft x 3.5ft x 2ft",
           "material": "Solid Ash Wood & Off-White Bouclé",
           "estimatedCost": 1800,
-          "reason: ": "Brings Japanese minimalism and a grounded, low seating posture to the layout.",
+          "reason": "Brings Japanese minimalism and a grounded, low seating posture to the layout.",
           "vastuZone": "South-West",
           "x": 50,
           "y": 75,
@@ -356,7 +356,7 @@
       ],
       "vastu": [
         {
-          "element: ": "Sofa seating",
+          "element": "Sofa seating",
           "idealDirection": "South-West",
           "placementDetail": "Placed securely against the South-West wall, facing East/North.",
           "benefit": "Provides high stability, mental clarity, and commanding authority during conversations.",
